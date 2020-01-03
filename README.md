@@ -6,7 +6,7 @@
 Raspberry piとLEDをデバイスドライバを用いて点灯させるプログラム。
 
 **環境**
-Raspberry pi 3B
+ Raspberry pi 3B
 OS：raspbian
 GPI025:２２番ピン
 GND：３９番ピン
