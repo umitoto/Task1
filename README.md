@@ -26,9 +26,9 @@ GND: 39番ピン
     $ make  
     $ sudo insmod myled.ko
     $ sudo chmod 666 /dev/myled0
+    $ sh timer.sh
     $ sudo echo 1 > /dev/myled0
     $ sudo echo 0 > /dev/myled0
-    $ ./flash.sh
     $ sudo rmmod myled.ko
  
 # Note
