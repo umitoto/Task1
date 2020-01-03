@@ -1,23 +1,23 @@
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
+# ロボットシステム学　課題1
+ **概要**
  
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
+ Raspberry piを用いてLEDを点灯、制御するデバイスドライバ及びプログラム。
  
-"hoge"が何かを簡潔に紹介する
  
-# DEMO
+# デモ映像
  
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+**URL：**
  
-# Features
  
-"hoge"のセールスポイントや差別化などを説明する
+# 要件
  
-# Requirement
- 
-"hoge"を動かすのに必要なライブラリなどを列挙する
- 
-* huga 3.5.2
-* hogehuga 1.0.2
+Raspberry Pi Model 3B
+
+OS:raspbian
+
+GPIO25: 22番ピン
+
+GND: 39番ピン
  
 # Installation
  
