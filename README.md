@@ -5,16 +5,16 @@
 **概要**
 Raspberry piとLEDをデバイスドライバを用いて点灯させるプログラム。
 
-＊＊環境＊＊
+**環境**
 Raspberry pi 3B
 OS：raspbian
 GPI025:２２番ピン
 GND：３９番ピン
 
-＊＊デモ映像＊＊
+**デモ映像**
 
 
-＊＊実行方法＊＊
+**実行方法**
 $ git clone https://github.com/OhnoKotaro/myled1.git
 $ cd myled1
 $ make
