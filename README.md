@@ -10,7 +10,7 @@
  
  
 # 要件
- 
+
 Raspberry Pi Model 3B
 
 OS:raspbian
@@ -19,41 +19,23 @@ GPIO25: 22番ピン
 
 GND: 39番ピン
  
-# Installation
+# Installation/Usage
  
-Requirementで列挙したライブラリなどのインストール方法を説明する
- 
-```bash
-pip install huga_package
-```
- 
-# Usage
- 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
+$ git clone 
+$ cd myled1
+$ make
+$ sudo insmod myled.ko
+$ sudo chmod 666 /dev/myled0
+$ sudo echo 1 > /dev/myled0
+$ sudo echo 0 > /dev/myled0
+$ ./flash.sh
+$ sudo rmmod myled.ko
  
 # Note
  
-注意点などがあれば書く
  
-# Author
- 
-作成情報を列挙する
- 
-* 作成者
-* 所属
-* E-mail
- 
-# License
+# ライセンス
 ライセンスを明示する
  
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+This is under [GNU license]<http://www.gnu.org/licenses/>.
  
-社内向けなら社外秘であることを明示してる
- 
-"hoge" is Confidential.
