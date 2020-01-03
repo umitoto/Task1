@@ -6,7 +6,7 @@
  
 # デモ映像
  
-**URL：**https://youtu.be/ygsqqd6A4mg
+URL：https://youtu.be/ygsqqd6A4mg
  
 # 要件
 ### 環境
