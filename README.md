@@ -27,11 +27,16 @@ GND: 39番ピン
     $ sudo insmod myled.ko
     $ sudo chmod 666 /dev/myled0
     $ sh timer.sh
+> LEDが入力された数字の秒数点灯する。
+    
     $ sudo echo 1 > /dev/myled0
+> LEDが点灯する。
+
     $ sudo echo 0 > /dev/myled0
+> LEDが消灯する。
+
     $ sudo rmmod myled.ko
 
-> aaa
 
 # Note
  
