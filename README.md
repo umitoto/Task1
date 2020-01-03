@@ -22,7 +22,6 @@ GND: 39番ピン
 # Installation/Usage
  
     $ git clone https://github.com/umitoto/Task1.git  
-> aa
     $ cd Task1  
     $ make  
     $ sudo insmod myled.ko
@@ -31,7 +30,9 @@ GND: 39番ピン
     $ sudo echo 1 > /dev/myled0
     $ sudo echo 0 > /dev/myled0
     $ sudo rmmod myled.ko
- 
+
+> aaa
+
 # Note
  
  
