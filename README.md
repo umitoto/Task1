@@ -15,8 +15,7 @@ Raspberry Pi Model 3B
 
 OS:raspbian
 
-GPIO25: 22番ピン
-
+GPIO25: 22番ピン  
 GND: 39番ピン
 
 > アノード22番ピンへ
