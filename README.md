@@ -18,6 +18,11 @@ OS:raspbian
 GPIO25: 22番ピン
 
 GND: 39番ピン
+
+> アノード２２番ピンへ
+ カソードを
+ ３９番ピン（GND）へ接続する。
+ 
  
 # Installation/Usage
  
@@ -44,6 +49,6 @@ GND: 39番ピン
     $ sudo rmmod myled.ko
 > ↑カーネルモジュールをアンロード。
  
-# ライセンス
+# Licenses
 This is under [GNU license]<http://www.gnu.org/licenses/>.
  
