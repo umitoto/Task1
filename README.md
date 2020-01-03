@@ -22,14 +22,14 @@ GND: 39番ピン
 # Installation/Usage
  
     $ git clone https://github.com/umitoto/Task1.git  
- $ cd Task1  
-$ make  
-$ sudo insmod myled.ko
-$ sudo chmod 666 /dev/myled0
-$ sudo echo 1 > /dev/myled0
-$ sudo echo 0 > /dev/myled0
-$ ./flash.sh
-$ sudo rmmod myled.ko
+    $ cd Task1  
+    $ make  
+    $ sudo insmod myled.ko
+    $ sudo chmod 666 /dev/myled0
+    $ sudo echo 1 > /dev/myled0
+    $ sudo echo 0 > /dev/myled0
+    $ ./flash.sh
+    $ sudo rmmod myled.ko
  
 # Note
  
