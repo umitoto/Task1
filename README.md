@@ -10,11 +10,11 @@
  
  
 # 要件
-
-Raspberry Pi Model 3B
-
+### 環境
+Raspberry Pi Model 3B   
 OS:raspbian
 
+### ピン設定
 GPIO25: 22番ピン  
 GND: 39番ピン
 
