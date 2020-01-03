@@ -22,10 +22,16 @@ GND: 39番ピン
 # Installation/Usage
  
     $ git clone https://github.com/umitoto/Task1.git  
+> githubよりコードを入手。
+
     $ cd Task1  
+> 入手したコードのディレクトリへ移動。
+
     $ make  
     $ sudo insmod myled.ko
     $ sudo chmod 666 /dev/myled0
+> カーネルモジュールをロード。
+
     $ sh timer.sh
 > LEDが入力された数字の秒数点灯する。
     
@@ -36,13 +42,8 @@ GND: 39番ピン
 > LEDが消灯する。
 
     $ sudo rmmod myled.ko
-
-
-# Note
- 
+> カーネルモジュールをアンロード。
  
 # ライセンス
-ライセンスを明示する
- 
 This is under [GNU license]<http://www.gnu.org/licenses/>.
  
